@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="serie.xsd" 
+       cod="T01" título="The Last of Us" género="ciencia ficción">
+    
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Joel Miller</nombre>
+            <género>M</género>
+            <descripción>Contrabandista encargado de escoltar a Ellie.</descripción>
+        </personaje>
+        <personaje id="p2" tipo="principal">
+            <nombre>Ellie Williams</nombre>
+            <género>F</género>
+        </personaje>
+    </personajes>
+    
+    <trama>Veinte años después de que una pandemia fúngica destruyera la civilización moderna, un superviviente es contratado para sacar de contrabando a una niña.</trama>
+    
+    <hashtag nombre="Supervivencia"/>
+    <hashtag nombre="Infectados"/>
+</serie>

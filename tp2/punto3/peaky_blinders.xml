@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="serie.xsd" 
+       cod="P88" título="Peaky Blinders" género="drama">
+    
+    <personajes>
+        <personaje id="p3" tipo="principal">
+            <nombre>Thomas Shelby</nombre>
+            <género>M</género>
+            <descripción>Líder de la banda criminal Peaky Blinders.</descripción>
+        </personaje>
+        <personaje id="p4" tipo="secundario">
+            <nombre>Ada Thorne</nombre>
+            <género>F</género>
+        </personaje>
+    </personajes>
+    
+    <trama>Una familia de gánsteres asienta su dominio en Birmingham justo después de la Primera Guerra Mundial.</trama>
+    
+</serie>

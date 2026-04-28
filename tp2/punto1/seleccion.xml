@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seleccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="seleccion.xsd">
+    
+    <equipos>
+        <equipo>
+            <id>1</id>
+            <nombre>Inter Miami CF</nombre>
+        </equipo>
+        <equipo>
+            <id>2</id>
+            <nombre>Aston Villa</nombre>
+        </equipo>
+    </equipos>
+
+    <jugadores>
+        <jugador>
+            <id>10</id>
+            <apellido>Messi</apellido>
+            <nombre>Lionel</nombre>
+            <posicion>Delantero</posicion>
+            <edad>36</edad>
+            <equipo_id>1</equipo_id>
+        </jugador>
+        <jugador>
+            <id>23</id>
+            <apellido>Martinez</apellido>
+            <nombre>Emiliano</nombre>
+            <posicion>Arquero</posicion>
+            <edad>31</edad>
+            <equipo_id>2</equipo_id>
+        </jugador>
+    </jugadores>
+    
+</seleccion>
