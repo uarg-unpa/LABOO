@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vista_calificaciones.xsl"?>
+<calificaciones fecha="29-5-2009">
+    <alumno tipo="recursante">
+        <nombre>Luis Gomez</nombre>
+        <materia>Resolución</materia>
+        <carrera>AdeS</carrera>
+        <nota>60</nota>
+    </alumno>
+    <alumno tipo="no recursante">
+        <nombre>Maria Lopez</nombre>
+        <materia>Laboratorio</materia>
+        <carrera>LeS</carrera>
+        <nota>30</nota>
+    </alumno>
+    <alumno tipo="recursante">
+        <nombre>Juan Perez</nombre>
+        <materia> Resolución </materia>
+        <carrera>AdeS</carrera>
+        <nota>90</nota>
+    </alumno>
+    <alumno tipo="recursante">
+        <nombre>Juan Perez</nombre>
+        <materia>Matematica</materia>
+        <carrera>AdeS</carrera>
+        <nota>55</nota>
+    </alumno>
+    <alumno tipo="no recursante">
+        <nombre>Maria Lopez</nombre>
+        <materia>Algebra</materia>
+        <carrera>LeS</carrera>
+        <nota>40</nota>
+    </alumno>
+</calificaciones>
