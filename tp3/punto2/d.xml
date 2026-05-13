@@ -1,0 +1,30 @@
+<plataforma>
+    <serie id="1">
+        <titulo>Game of Thrones</titulo>
+        <creador>David Benioff</creador>
+        <anioLanzamiento>2011</anioLanzamiento>
+        <cantidadTemporadas>8</cantidadTemporadas>
+        <episodiosPorTemporada>
+            <episodios>10</episodios>
+            <episodios>10</episodios>
+            <episodios>10</episodios>
+            <episodios>10</episodios>
+            <episodios>10</episodios>
+            <episodios>10</episodios>
+            <episodios>7</episodios>
+            <episodios>6</episodios>
+        </episodiosPorTemporada>
+        <actoresPrincipales>
+            <actor>Sean Bean</actor>
+            <actor>Peter Dinklage</actor>
+            <actor>Emilia Clarke</actor>
+        </actoresPrincipales>
+        <generos>
+            <genero>Fantasía</genero>
+            <genero>Drama</genero>
+            <genero>Aventura</genero>
+        </generos>
+        <estado>finalizada</estado>
+        <calificacion>9.2</calificacion>
+    </serie>
+    </plataforma>

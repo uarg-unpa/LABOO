@@ -1,0 +1,76 @@
+{
+  "series": [
+    {
+      "id": 1,
+      "titulo": "Game of Thrones",
+      "creador": "David Benioff",
+      "año_lanzamiento": 2011,
+      "cantidad_temporadas": 8,
+      "episodios_por_temporada": [10, 10, 10, 10, 10, 10, 7, 6],
+      "actores_principales": ["Sean Bean", "Peter Dinklage", "Emilia Clarke"],
+      "generos": ["Fantasía", "Drama", "Aventura"],
+      "estado": "finalizada",
+      "calificacion": 9.2
+    },
+    {
+      "id": 2,
+      "titulo": "Stranger Things",
+      "creador": "Duffer Brothers",
+      "año_lanzamiento": 2016,
+      "cantidad_temporadas": 4,
+      "episodios_por_temporada": [8, 9, 8, 9],
+      "actores_principales": ["Winona Ryder", "David Harbour", "Millie Bobby Brown"],
+      "generos": ["Ciencia Ficción", "Terror", "Drama"],
+      "estado": "en emisión",
+      "calificacion": 8.7
+    },
+    {
+      "id": 3,
+      "titulo": "The Office",
+      "creador": "Greg Daniels",
+      "año_lanzamiento": 2005,
+      "cantidad_temporadas": 9,
+      "episodios_por_temporada": [6, 22, 25, 14, 28, 26, 26, 24, 25],
+      "actores_principales": ["Steve Carell", "Rainn Wilson", "John Krasinski"],
+      "generos": ["Comedia"],
+      "estado": "finalizada",
+      "calificacion": 9.0
+    },
+    {
+      "id": 4,
+      "titulo": "The Boys",
+      "creador": "Eric Kripke",
+      "año_lanzamiento": 2019,
+      "cantidad_temporadas": 3,
+      "episodios_por_temporada": [8, 8, 8],
+      "actores_principales": ["Karl Urban", "Jack Quaid", "Antony Starr"],
+      "generos": ["Acción", "Comedia negra", "Ciencia Ficción"],
+      "estado": "en emisión",
+      "calificacion": 8.7
+    },
+    {
+      "id": 5,
+      "titulo": "Chernobyl",
+      "creador": "Craig Mazin",
+      "año_lanzamiento": 2019,
+      "cantidad_temporadas": 1,
+      "episodios_por_temporada": [5],
+      "actores_principales": ["Jared Harris", "Stellan Skarsgård", "Emily Watson"],
+      "generos": ["Drama histórico", "Tragedia"],
+      "estado": "finalizada",
+      "calificacion": 9.3
+    },
+    {
+      "id": 6,
+      "titulo": "The Mandalorian",
+      "creador": "Jon Favreau",
+      "año_lanzamiento": 2019,
+      "cantidad_temporadas": 3,
+      "episodios_por_temporada": [8, 8, 8],
+      "actores_principales": ["Pedro Pascal", "Carl Weathers", "Giancarlo Esposito"],
+      "generos": ["Aventura", "Ciencia Ficción", "Acción"],
+      "estado": "en emisión",
+      "calificacion": 8.7
+    }
+  ]
+}

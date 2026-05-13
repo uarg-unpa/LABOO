@@ -1,0 +1,33 @@
+{
+  "startup": {
+    "equipo": {
+      "miembro_1": {
+        "alias": "CodeMaster",
+        "nombreReal": "Juan Pérez",
+        "rol": "Desarrollador Full Stack",
+        "habilidades": ["JavaScript", "Laravel", "PostgreSQL"],
+        "nivel": "Senior",
+        "salario": 150000,
+        "estado": "activo"
+      },
+      "miembro_2": {
+        "alias": "DataQueen",
+        "nombreReal": "Ana Gómez",
+        "rol": "Analista de Datos",
+        "habilidades": ["Python", "SQL", "Power BI"],
+        "nivel": "Semi-Senior",
+        "salario": 140000,
+        "estado": "activo"
+      },
+      "miembro_3": {
+        "alias": "BugHunter",
+        "nombreReal": "Lucas Díaz",
+        "rol": "Tester QA",
+        "habilidades": ["Testing", "Automatización"],
+        "nivel": "Junior",
+        "salario": 100000,
+        "estado": "remoto"
+      }
+    }
+  }
+}
