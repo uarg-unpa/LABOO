@@ -6,7 +6,7 @@ public class AppSeleccion {
 
         System.out.println("=== SISTEMA DE GESTION ===");
 
-        // a) Crear JSON en Java (Cargamos memoria inicial)
+        // a) Crear JSON en Java (Carga inicial en memoria)
         Controlador.cargarDatosIniciales();
         System.out.println("a) Datos iniciales generados en memoria.");
 
@@ -14,14 +14,14 @@ public class AppSeleccion {
         Controlador.guardarEnArchivo();
         System.out.println("b) Archivo 'seleccion.json' guardado con éxito.");
 
-        // c) Mostrar en consola (Lo leemos directamente del JSON generado)
+        // c) Mostrar en consola
         System.out.println("c) El archivo ya está listo para ser leido.");
 
         // d) Leer y parsear JSON
         Controlador.leerDesdeArchivo();
         System.out.println("d) Archivo leido y parseado a Objetos Java.");
 
-        // e) Modificar datos (ABM)
+        // e) Modificar datos
         System.out.println("\ne) Aplicando ABM...");
         Controlador.agregarEquipo(new Equipo(3, "Inter Miami"));
         Controlador.agregarJugador(new Jugador(3, "Messi", "Lionel", "Delantero", 36, 3));
@@ -37,7 +37,7 @@ public class AppSeleccion {
         Controlador.guardarEnArchivo();
         System.out.println("f) Cambios guardados en 'seleccion.json'.\n");
 
-        // Obtenemos la lista actualizada para hacer las consultas
+        // Obtener la lista actualizada para hacer las consultas
         ArrayList<Jugador> listaFinal = Controlador.getJugadores();
 
         // g) Realizar consultas (Filtro por edad)
