@@ -1,0 +1,1 @@
+{"jugadores":[{"posicion":"Arquero","equipo_id":1,"apellido":"Martínez","id":1,"nombre":"Emiliano","edad":32},{"posicion":"Delantero","equipo_id":3,"apellido":"Messi","id":3,"nombre":"Lionel","edad":36}],"equipos":[{"id":1,"nombre":"Aston Villa"},{"id":2,"nombre":"Roma"},{"id":3,"nombre":"Inter Miami"}]}
