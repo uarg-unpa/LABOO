@@ -1,0 +1,34 @@
+CREATE DATABASE ejemplo;
+USE ejemplo;
+CREATE TABLE alumnos (
+   id INT NOT NULL PRIMARY KEY,
+   nombre VARCHAR(15) NOT NULL,
+   apellido VARCHAR(15) NOT NULL,
+   dni VARCHAR(15) NOT NULL
+);
+INSERT INTO alumnos VALUES (1, 'Juan', 'Perez', '30000000');
+INSERT INTO alumnos VALUES (2, 'Carlos', 'Gomez', '40000000');
+INSERT INTO alumnos VALUES (3, 'Juana', 'Perez', '32000000');
+INSERT INTO alumnos VALUES (4, 'Jose', 'Fernandez', '33000000');
+SELECT * FROM alumnos;
+
+CREATE TABLE articulos (
+   codigo INT NOT NULL PRIMARY KEY,
+   descripcion VARCHAR(50) NOT NULL,
+   precio DECIMAL(10,2) NOT NULL
+);
+CREATE TABLE stock (
+   codigo INT NOT NULL PRIMARY KEY,
+   cantidad INT NOT NULL
+);
+
+INSERT INTO articulos VALUES (10, 'Impresora Multifuncion Hp 4103fdw', 488400);
+INSERT INTO articulos VALUES (2, 'Notebook Asus X515EA slate gray 15.6", Intel Core i7', 799999);
+INSERT INTO stock VALUES (10, 15);
+INSERT INTO stock VALUES (2, 3);
+
+SELECT * FROM articulos;
+SELECT * FROM stock;
+
+
+
