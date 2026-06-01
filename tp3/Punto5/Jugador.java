@@ -15,24 +15,45 @@ public class Jugador {
         this.equipoId = equipoId;
     }
 
+    /** 
+     * @return long
+     */
     public long getId() { 
         return id; 
     }
+    /** 
+     * @return String
+     */
     public String getApellido() { 
         return apellido; 
     }
+    /** 
+     * @return String
+     */
     public String getNombre() { 
         return nombre; 
     }
+    /** 
+     * @return String
+     */
     public String getPosicion() { 
         return posicion; 
     }
+    /** 
+     * @return long
+     */
     public long getEdad() { 
         return edad; 
     }
+    /** 
+     * @param edad
+     */
     public void setEdad(long edad) { 
         this.edad = edad; 
     }
+    /** 
+     * @return long
+     */
     public long getEquipoId() { 
         return equipoId; 
     }

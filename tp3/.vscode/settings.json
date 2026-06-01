@@ -1,12 +1,12 @@
 {
     "java.project.sourcePaths": [
-        "src",
-        "punto4",
         "punto3",
-        "Punto5"
+        "punto4",
+        "Punto5",
+        "src"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "c:\\Users\\Axel\\Documents\\LABOO\\tp3\\lib\\json-simple-1.1.1.jar"
     ]
 }

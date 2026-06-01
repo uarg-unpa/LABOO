@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 
 public class AppSeleccion {
+    /** 
+     * @param args
+     */
+    
     public static void main(String[] args) {
         ControladorSeleccion Controlador = new ControladorSeleccion();
 
@@ -21,7 +25,7 @@ public class AppSeleccion {
         Controlador.leerDesdeArchivo();
         System.out.println("d) Archivo leido y parseado a Objetos Java.");
 
-        // e) Modificar datos
+        // e) Modificar datos (Alta, Baja, Modificación - ABM)
         System.out.println("\ne) Aplicando ABM...");
         Controlador.agregarEquipo(new Equipo(3, "Inter Miami"));
         Controlador.agregarJugador(new Jugador(3, "Messi", "Lionel", "Delantero", 36, 3));

@@ -88,10 +88,18 @@ public class ControladorSeleccion {
         }
     }
 
+    /** 
+     * @param id
+     * @param nuevaEdad
+     */
     // --- e) Métodos ABM (Actualizar, Agregar, Eliminar) ---
     public void agregarEquipo(Equipo e) { equipos.add(e); }
     public void agregarJugador(Jugador j) { jugadores.add(j); }
     
+    /** 
+     * @param id
+     * @param nuevaEdad
+     */
     public void actualizarEdadJugador(long id, long nuevaEdad) {
         for (Jugador j : jugadores) {
             if (j.getId() == id) {
@@ -101,14 +109,23 @@ public class ControladorSeleccion {
         }
     }
 
+    /** 
+     * @param id
+     */
     public void eliminarJugador(long id) {
         jugadores.removeIf(j -> j.getId() == id);
     }
 
+    /** 
+     * @return ArrayList<Jugador>
+     */
     // Getters para la vista
     public ArrayList<Jugador> getJugadores() { 
         return jugadores; 
     }
+    /** 
+     * @return ArrayList<Equipo>
+     */
     public ArrayList<Equipo> getEquipos() { 
         return equipos; 
     }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Expedientes - Punto 2</title>
+    <link rel="stylesheet" href="estilos-formulario.css">
+    <script src="script-expedientes.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Sistema de Gestión de Expedientes</h1>
+    </header>
+
+    <main>
+        <form id="formExpediente" novalidate>
+            
+            <fieldset>
+                <legend>Datos del Expediente</legend>
+
+                <label for="numExpediente">Número de Expediente (solo números):</label>
+                <input type="text" id="numExpediente" name="numExpediente" required placeholder="Ej: 1234">
+                <span id="errorExpediente" class="error-msg"></span>
+
+                <br><br>
+
+                <label for="area">Área:</label>
+                <select id="area" name="area" required>
+                    <option value="">-- Seleccione un Área --</option>
+                    <option value="Mesa de Entrada">Mesa de Entrada</option>
+                    <option value="Jurídico">Jurídico</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Administración">Administración</option>
+                </select>
+                <span id="errorArea" class="error-msg"></span>
+
+                <br><br>
+
+                <label for="tipoTramite">Tipo de Trámite:</label>
+                <select id="tipoTramite" name="tipoTramite" required>
+                    <option value="">-- Seleccione Prioridad --</option>
+                    <option value="Urgente">Urgente</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Bajo">Bajo</option>
+                </select>
+                <span id="errorTramite" class="error-msg"></span>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Datos de Gestión</legend>
+
+                <label for="diasTramite">Cantidad de días en trámite:</label>
+                <input type="number" id="diasTramite" name="diasTramite" min="1" required>
+                <span id="errorDias" class="error-msg"></span>
+
+                <br><br>
+
+                <label>Estado:</label><br>
+                <input type="radio" id="estadoPendiente" name="estado" value="Pendiente" required>
+                <label for="estadoPendiente">Pendiente</label>
+                
+                <input type="radio" id="estadoProceso" name="estado" value="En proceso">
+                <label for="estadoProceso">En proceso</label>
+                
+                <input type="radio" id="estadoFinalizado" name="estado" value="Finalizado">
+                <label for="estadoFinalizado">Finalizado</label>
+                <br>
+                <span id="errorEstado" class="error-msg"></span>
+
+                <br><br>
+
+                <label for="responsable">Responsable:</label>
+                <input type="text" id="responsable" name="responsable" required>
+                <span id="errorResponsable" class="error-msg"></span>
+
+                <br><br>
+
+                <label for="expedientesHoy">Cantidad de expedientes gestionados hoy:</label>
+                <input type="number" id="expedientesHoy" name="expedientesHoy" min="0" required>
+                <span id="errorExpedientesHoy" class="error-msg"></span>
+
+                <br><br>
+
+                <label for="horasTrabajadas">Horas trabajadas (entre 1 y 12):</label>
+                <input type="number" id="horasTrabajadas" name="horasTrabajadas" min="1" max="12" required>
+                <span id="errorHoras" class="error-msg"></span>
+            </fieldset>
+
+            <br>
+
+            <div class="botones-container">
+                <button type="submit" id="btnValidar">Validar expediente</button>
+                <button type="reset" id="btnLimpiar">Limpiar</button>
+            <button type="button" id="btnEstadistica">Calcular estadística</button>
+            <button type="button" id="btnJSON">Generar JSON</button>
+            <pre id="resultadoJSON" style="background: #f4f4f4; padding: 10px; margin-top: 15px; display: none;"></pre>
+            <div id="resultadoEstadistica" style="margin-top: 15px; font-weight: bold;">
+            </div>
+
+        </form>
+
+        <div id="mensajeResultado" style="margin-top: 15px; font-weight: bold;"></div>
+    </main>
+
+</body>
+</html>

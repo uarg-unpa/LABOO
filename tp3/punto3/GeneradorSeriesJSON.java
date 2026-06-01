@@ -4,6 +4,9 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 @SuppressWarnings("unchecked")// Omitir advertencias de tipo sin verificar al usar JSON.simple
 public class GeneradorSeriesJSON {
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         
         // 3.a) Crear el JSON en Java

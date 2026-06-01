@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class AppSeries {
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         ControladorSeries controlador = new ControladorSeries();
         controlador.cargarDatos("series.json");

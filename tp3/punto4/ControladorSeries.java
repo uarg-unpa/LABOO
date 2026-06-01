@@ -11,6 +11,9 @@ public class ControladorSeries {
         this.listaSeries = new ArrayList<>();
     }
 
+    /** 
+     * @param ruta
+     */
     public void cargarDatos(String ruta) {
         JSONParser parser = new JSONParser();
         try (FileReader reader = new FileReader(ruta)) {
@@ -44,6 +47,10 @@ public class ControladorSeries {
 
     public ArrayList<Serie> getListaSeries() { return listaSeries; }
 
+    /** 
+     * @param min
+     * @return ArrayList<Serie>
+     */
     // Lógica para filtrar (Punto 4.c)
     public ArrayList<Serie> filtrarPorCalificacion(double min) {
         ArrayList<Serie> filtradas = new ArrayList<>();
@@ -53,6 +60,10 @@ public class ControladorSeries {
         return filtradas;
     }
 
+    /** 
+     * @param nombre
+     * @return ArrayList<Serie>
+     */
     // Lógica para buscar actor (Punto 4.d)
     public ArrayList<Serie> buscarPorActor(String nombre) {
         ArrayList<Serie> resultados = new ArrayList<>();

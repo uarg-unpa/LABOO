@@ -7,9 +7,15 @@ public class Equipo {
         this.nombre = nombre;
     }
 
+    /** 
+     * @return long
+     */
     public long getId() { 
         return id; 
     }
+    /** 
+     * @return String
+     */
     public String getNombre() { 
         return nombre; 
     }

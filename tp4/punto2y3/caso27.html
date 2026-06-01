@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso 27 - Gestión de Jugadores AFA</title>
+    <link rel="stylesheet" href="estilos-formulario.css">
+</head>
+<body>
+
+    <h2>Gestión de Jugadores - Selección Argentina</h2>
+
+    <form id="formJugadores" novalidate>
+        <fieldset>
+            <legend>Datos del Jugador</legend>
+
+            <label for="jugadorId">ID Jugador (Máx 5 dígitos):</label>
+            <input type="number" id="jugadorId" required max="99999" min="1">
+            <span id="errorId" class="error-msg"></span>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required maxlength="20" min= "1">
+            <span id="errorApellido" class="error-msg"></span>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required maxlength="30" min="1">
+            <span id="errorNombre" class="error-msg"></span>
+
+            <label for="posicion">Posición:</label>
+            <input type="number" id="posicion" required maxlength="20" min="1">
+
+            <span id="errorPosicion" class="error-msg"></span>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required max="99" min="1">
+            <span id="errorEdad" class="error-msg"></span>
+
+            <label for="equipoId">ID Equipo:</label>
+            <input type="number" id="equipoId" required max="99999" min="1">
+            <span id="errorEquipoId" class="error-msg"></span>
+
+            <button type="submit">Validar Jugador</button>
+        </fieldset>
+    </form>
+
+    <script src="script-jugadores.js"></script>
+</body>
+</html>

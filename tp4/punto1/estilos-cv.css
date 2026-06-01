@@ -1,0 +1,133 @@
+/* ==========================================
+   Reseteo básico para evitar márgenes por defecto del navegador
+========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   Estilos generales (Selectores de elemento)
+========================================== */
+body {
+    /* Tipografía moderna y limpia */
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    font-size: 16px; 
+    background-color: #e9ecef; /* Fondo gris claro para resaltar el CV */
+    color: #333333; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Agrupamos las etiquetas semánticas para darles formato de "tarjeta" */
+header, nav, section, aside, footer {
+    max-width: 800px;
+    margin: 0 auto 20px auto; /* Centra los bloques en la pantalla */
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    padding: 25px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+}
+
+/* ==========================================
+   Cabecera y Navegación
+========================================== */
+header {
+    background-color: #2c3e50; /* Azul oscuro elegante */
+    color: #ffffff; 
+    text-align: center;
+    border-bottom: 5px solid #3498db; /* Línea de acento celeste */
+}
+
+/* Hacemos que la imagen de cabecera sea responsiva */
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none; /* Quitamos las viñetas del índice */
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline-block; /* Ponemos los enlaces uno al lado del otro */
+    margin: 0 15px;
+}
+
+/* ==========================================
+   Títulos y Textos
+========================================== */
+h2 {
+    font-family: 'Georgia', serif; /* Tipografía Serif para los títulos */
+    font-size: 26px; 
+    color: #2c3e50; 
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px; 
+    color: #555555; 
+    margin-bottom: 10px;
+}
+
+/* Estilos para las listas de experiencia y formación */
+ul, ol, dl {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+/* ==========================================
+   Enlaces y Pseudo-clases
+========================================== */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Pseudo-clase que cambia el color al pasar el cursor */
+a:hover {
+    color: #e74c3c; /* Cambia a rojo anaranjado */
+    text-decoration: underline;
+}
+
+/* Estilo especial para los enlaces de "Ir a inicio" */
+article a[href="#inicio"], aside a[href="#inicio"] {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+article a[href="#inicio"]:hover, aside a[href="#inicio"]:hover {
+    color: #2c3e50;
+}
+
+/* ==========================================
+   Pie de página
+========================================== */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+    background-color: transparent; /* Quitamos el fondo blanco */
+    box-shadow: none; /* Quitamos la sombra */
+}
